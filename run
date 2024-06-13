@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Define usage function
+usage() {
+    echo "Usage: $0 -c path/to/config_file or $0 --config path/to/config_file"
+    exit 1
+}
+
+# Parse command-line options
+PARSED=$(getopt -o c: --long config: --name "$0" -- "$@")
+if [[ $? -ne 0 ]]; then
+    usage
+fi
+eval set -- "$PARSED"
+
+# Extract options and their arguments
+CONFIG_FILE=""
+while true; do
+    case "$1" in
+        -c|--config)
+            CONFIG_FILE="$2"
+            shift 2
+            ;;
+        --)
+            shift
+            break
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+
+# Check if configuration file argument is provided
+if [ -z "$CONFIG_FILE" ]; then
+    echo "Error: Configuration file argument missing."
+    usage
+fi
+
+# Function to deactivate venv and exit script gracefully
+cleanup() {
+    deactivate
+    exit 0
+}
+
+# Trap Ctrl+C (SIGINT) and call cleanup function
+trap cleanup SIGINT
+
+# Activate the virtual environment
+source ./venv/bin/activate
+
+# Run your Python script
+python3 player.py -c "$CONFIG_FILE"
+
+# Optionally, deactivate venv here, though the script might exit before reaching this point due to Ctrl+C
