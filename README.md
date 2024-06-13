@@ -11,7 +11,7 @@ sudo apt upgrade
 sudo apt autoremove
 
 # cd to the desired path, then...
-git clone git@github.com:Erik-Schlegel/pitools_audioambience.git
+git clone https://github.com/Erik-Schlegel/pitools_audioambience.git
 
 #Install
 sudo ./install
