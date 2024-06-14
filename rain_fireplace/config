@@ -1,0 +1,5 @@
+# file_path volume_db trim_start_ms trim_end_ms offset_start_time_ms pan
+# mute is typically around -150, and full volume is 0
+# pan is -1 to 1, 0 is center. Stereo only. Mono files will be rounded and fully forced to left, right, or center.
+./rain_fireplace/res/rain_9b.ogg -90 2000 2500 0 0
+./rain_fireplace/res/fire_5b.ogg -90 2000 2500 0 0

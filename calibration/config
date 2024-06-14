@@ -1,0 +1,29 @@
+# file_path volume_db trim_start_ms trim_end_ms offset_start_time_ms pan
+# mute is typically around -140, and full volume is 0
+# pan is -1 to 1, 0 is center. Stereo only. Mono files will be rounded and fully forced to left, right, or center.
+./calibration/res/1a.ogg -90 2000 2500 0 -1
+./calibration/res/1b.ogg -90 2000 2500 0 1
+
+./calibration/res/2a.ogg -90 2000 2500 0 -1
+./calibration/res/2b.ogg -90 2000 2500 0 1
+
+./calibration/res/3a.ogg -90 2000 2500 0 -1
+./calibration/res/3b.ogg -90 2000 2500 0 1
+
+./calibration/res/4a.ogg -70 2500 2500 0 -1
+./calibration/res/4b.ogg -70 2500 2500 0 1
+
+./calibration/res/5a.ogg -90 1800 2500 0 -1
+./calibration/res/5b.ogg -90 1800 2500 0 1
+
+./calibration/res/6a.ogg -90 2000 2500 0 -1
+./calibration/res/6b.ogg -90 2000 2500 0 1
+
+./calibration/res/7a.ogg -90 2000 2500 0 -1
+./calibration/res/7b.ogg -90 2000 2500 0 1
+
+./calibration/res/8a.ogg -90 2000 2500 0 -1
+./calibration/res/8b.ogg -90 2000 2500 0 1
+
+./calibration/res/9a.ogg -90 2000 2500 0 -1
+./calibration/res/9b.ogg -90 2000 2500 0 1

@@ -1,7 +1,6 @@
 # Pi Tools - Audio Ambience
 Loops any number of audio files simultaneously on a raspberry pi.
 
-
 ## Remote Setup
 
 ```sh
@@ -14,19 +13,14 @@ sudo apt autoremove
 git clone https://github.com/Erik-Schlegel/pitools_audioambience.git
 
 #Install
-sudo ./install
+sudo ./install.sh
 ```
 
 ## Run
-`./run -c ./rain_fireplace/rf.config`
+`./run -p calibration`
 
 
 ## Bluetooth Stuff
-
-#### Bluetooth Status
-`sudo stystemctl status bluetooth`
-
-#### Bluetooth cli
 ```sh
 # enter bluetooth interactive command
 bluetoothctl
