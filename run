@@ -24,7 +24,7 @@ while true; do
         shift 2
         ;;
     -p | --path)
-        PATH_DIR="$2"
+        PATH_DIR="stages/$2"
         shift 2
         ;;
     --)
