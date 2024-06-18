@@ -10,20 +10,20 @@
 ./stages/calibration/res/3a.ogg -90 2000 2500 0 -1
 ./stages/calibration/res/3b.ogg -90 2000 2500 0 1
 
-./stages/calibration/res/4a.ogg -70 2500 2500 0 -1
-./stages/calibration/res/4b.ogg -70 2500 2500 0 1
+./stages/calibration/res/4a.ogg -90 2500 2500 0 -1
+./stages/calibration/res/4b.ogg -90 2500 2500 0 1
 
 ./stages/calibration/res/5a.ogg -90 1800 2500 0 -1
 ./stages/calibration/res/5b.ogg -90 1800 2500 0 1
 
-./stages/calibration/res/6a.ogg -90 2000 2500 0 -1
-./stages/calibration/res/6b.ogg -90 2000 2500 0 1
+./stages/calibration/res/6a.ogg -82 2000 2500 0 -1
+./stages/calibration/res/6b.ogg -82 2000 2500 0 1
 
-./stages/calibration/res/7a.ogg -90 2000 2500 0 -1
-./stages/calibration/res/7b.ogg -90 2000 2500 0 1
+./stages/calibration/res/7a.ogg -82 2000 2500 0 -1
+./stages/calibration/res/7b.ogg -82 2000 2500 0 1
 
-./stages/calibration/res/8a.ogg -90 2000 2500 0 -1
-./stages/calibration/res/8b.ogg -90 2000 2500 0 1
+./stages/calibration/res/8a.ogg -87 2000 2500 0 -1
+./stages/calibration/res/8b.ogg -87 2000 2500 0 1
 
-./stages/calibration/res/9a.ogg -90 2000 2500 0 -1
-./stages/calibration/res/9b.ogg -90 2000 2500 0 1
+./stages/calibration/res/9a.ogg -88 2000 2500 0 -1
+./stages/calibration/res/9b.ogg -88 2000 2500 0 1

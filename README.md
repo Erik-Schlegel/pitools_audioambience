@@ -17,7 +17,22 @@ sudo ./install.sh
 ```
 
 ## Run
-`./run -p calibration`
+
+```sh
+#ssh into the playing device
+
+# Does tmux session already exist?
+tmux ls
+
+#if not, create new session
+tmux new -s audio
+cd pitools_audioambience
+
+#if already playing, and need to reconnect
+tmux attach -t <session_name>
+
+./run -p <name_of_audio_stage>
+```
 
 
 ## Bluetooth Stuff
