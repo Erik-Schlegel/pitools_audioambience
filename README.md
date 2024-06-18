@@ -32,6 +32,9 @@ cd pitools_audioambience
 tmux attach -t <session_name>
 
 ./run -p <name_of_audio_stage>
+
+# if wanting to kill existing session
+tmux kill-session -t <session_name>
 ```
 
 
